@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Header styling */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Section styling */
+.section {
+  padding: 60px 0;
+}
+
+/* Home section */
+.section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* About section */
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.passion,
+.faith, .context {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Portfolio and Blog sections */
+.portfolio-item,
+.blog-post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-item h3,
+.blog-post h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.article-image,
+.blog-summary {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+/* Contact section */
+.contact-info {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.contact-list li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-media-list li {
+  margin-right: 15px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
